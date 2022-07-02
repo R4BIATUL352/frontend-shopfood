@@ -1,4 +1,3 @@
-
 /* css user */
 a {
     color :black;
@@ -25,7 +24,6 @@ a:hover{
 
 
 .navbar img {
-
     width: 100px;
     height: 80px;
 
@@ -34,10 +32,6 @@ a:hover{
 .btn {
     border-radius: 30px;
     background-color: #F1DDBF;
-}
-.btn:hover{
-    background-color: #57637A !important;
-    color: white !important;
 }
 
 body {
@@ -123,10 +117,6 @@ footer {
     margin-bottom: 50px;
 }
 
-/* .menu{
-    margin: 20px;
-} */
-
 .menu .col-md-12 {
     margin-top: 30px;
 }
@@ -142,7 +132,6 @@ footer {
 }
 .menu .col-md-3 {
     margin-bottom: 20px;
-    margin-right: 5px;
 }
 
 .menu a {
@@ -159,7 +148,6 @@ footer {
 .menu .card .card-img-top {
     border-radius: 30px;
     height: 230px;
-
 
 }
 
@@ -182,40 +170,32 @@ footer {
     background: #F1DDBF;
     padding: 20px;
     border-radius: 30px;
-    margin-right: 15px;
 }
 
 .toko .block-menu h4 {
     font-family: righteous;
 }
 
-
 .toko .block-menu .ic-menu {
-    width: 90%;
-    height: 110px;
+    width: 100%;
+    height: 120px;
     border-radius: 30px;
-    
 }
 .toko .col-md-4{
     margin-bottom: 20px;
 }
-.toko .block-menu .btn-keranjang{
-    background: #92BA92;
+.toko .block-menu .btn {
+    background: #78938A;
     border-radius: 10px;
-    /* width: 100%; */
-    width: 60px;
-    height: 60px;
-}
-
-.btn-keranjang input {
-    width: 100%;
-    background-color: #92BA92;
-    border: none;
 }
  
+.btn input {
+    width: 100%;
+}
+
 .toko .block-menu .btn img {
-    /* width: 40px; */
-    /* min-height: 50px; */
+    /* width: 40px;
+    min-height: 50px; */
 }
 
 .toko .block-menu .col-md-8 {
@@ -231,7 +211,6 @@ footer {
 .toko .row .col-md-4 .button-keranjang {
     margin-right: 30000px;
 }
-
 
 .block-white {
     background-color: #525E75;
@@ -293,14 +272,6 @@ footer {
     text-align: -webkit-right;
 }
 
-.checkout .for-btn {
-    background-color: #525E75;
-    color: black;
-    border-radius: 10px;
-    text-align: right;
-    width: 330px;
-}
-
 .checkout .for-btn p {
     margin-bottom: 0rem !important;
 }
@@ -321,29 +292,100 @@ footer {
     background-color: ;
 }
 
-.btn-checkout:hover {
-    background-color: #92BA92;
-}
+.btn-checkout:hover {}
 
 .form .form-control{
     background-color: #D9D9D9;
+
+}
+ /* admin toko */
+ .admin .bold {
+    font-weight: bolder;
 }
 
-.table{
-    margin-bottom: 20px;
-    background-color: #F1DDBF;
-    border-radius: 20px;
+.admin .navbar {
+    background-color: #78938A !important;
 }
 
-/* css admin toko */
-.btn-edit {
+.admin .navbar .brand {
+    font-family: righteous;
+}
+
+.admin .navbar img {
+    width: 100px;
+    height: 80px;
+
+}
+
+.admin .btn {
     border-radius: 30px;
-    background-color:#92BA92;
-    
+    width: 110px;
+    background-color: #F1DDBF;
 }
-.btn-edit:hover{
-    background-color: #57637A !important;
-    color: white !important;
+
+.admin {
+    font-family: p400;
+    font-size: 14px;
+}
+
+.admin.account {
+    color: white;
+    font-family: p400;
+}
+
+.admin .block-acc {
+    text-align: center;
+    margin: 100px;
+    width: 70%;
+    border-radius: 50px;
+    background-color: #57637A;
+    padding: 80px 100px 80px 100px;
+}
+
+.admin .block-center {
+    text-align: -webkit-center;
+}
+
+.admin .input {
+    background-color: #92BA92;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 5px 20px 5px 20px;
+}
+
+.admin .input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #92BA92;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 28PX;
+    background-color: #78938A;
+    text-align: center;
+    color: black;
+}
+
+.img-acc {
+    width: 25%;
+}
+
+.menu {
+    margin: 50px;
+}
+
+.menu .col-md-12 {
+    margin-top: 20px;
+}
+
+.toko .w-100 {
+    width: 100%;
+    background-size: cover;
+    height: 290px;
 }
 
 .menu .block-menu {
@@ -351,6 +393,46 @@ footer {
     padding: 20px;
     border-radius: 30px;
 }
+
+.menu .block-menu .ic-menu {
+    width: 100%;
+    border-radius: 30px;
+    height: 120px;
+
+}
+
+.menu .block-menu .btn {
+    background: #78938A;
+    border-radius: 8px;
+    width: 60px;
+    height: 30px;
+}
+
+.col-md-4 .btn p {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+
+.menu .block-menu .col-md-8 {
+    text-align: right;
+    align-self: center;
+}
+
+.menu .block-menu .col-md-8 input {
+    border: none;
+    width: 50px;
+}
+
+.block-white {
+    background-color: #525E75;
+    color: black;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+
+.btn-checkout:hover {}
 
 .voucher {
     width: 100%;
@@ -363,6 +445,15 @@ footer {
     margin-bottom: 40px;
 
 }
+
+.voucher-input {
+    margin-bottom: 30px;
+}
+
+.col-md-8 p {
+    text-align: left;
+}
+
 .col-md-12 .btn-primary {
     width: 70px;
     float: right;
@@ -383,6 +474,11 @@ footer {
 
 .p-700 {
     margin-top: 10px;
+}
+
+.text-Secondary {
+    color: #7C7B7A;
+    font-weight: bold;
 }
 
 .info-admin {
@@ -412,15 +508,121 @@ input {
     margin-bottom: 10px;
 }
 
+.bagian-atas {
+    background-color: white;
+}
 
 
 /* css admin utama */
+
+
+.bold {
+    font-weight: bolder;
+}
+
+.navbar {
+    background-color: #78938A !important;
+}
+
+.navbar .brand {
+    font-family: righteous;
+}
+
+.navbar img {
+    width: 100px;
+    height: 80px;
+
+}
+
+.btn {
+    border-radius: 30px;
+    width: 110px;
+    background-color: #F1DDBF;
+}
+
+body {
+    font-family: p400;
+    font-size: 14px;
+}
+
+body.account {
+    color: white;
+    font-family: p400;
+}
+
+.block-acc {
+    text-align: center;
+    margin: 100px;
+    width: 70%;
+    border-radius: 50px;
+    background-color: #57637A;
+    padding: 80px 100px 80px 100px;
+}
+
+.block-center {
+    text-align: -webkit-center;
+}
+
+.input {
+    background-color: #92BA92;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 5px 20px 5px 20px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #92BA92;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 28PX;
+    background-color: #78938A;
+    text-align: center;
+    color: black;
+}
+
+.img-acc {
+    width: 25%;
+}
+
+.menu {
+    margin: 50px;
+}
+
+.menu .col-md-12 {
+    margin-top: 20px;
+}
+
+.toko .w-100 {
+    width: 100%;
+    background-size: cover;
+    height: 290px;
+}
+
+.menu .block-menu {
+    background: #F1DDBF;
+    padding: 20px;
+    border-radius: 30px;
+}
 
 .menu .block-menu .ic-menu {
     width: 100%;
     border-radius: 30px;
     height: 120px;
 
+}
+
+.menu .block-menu .btn {
+    background: #78938A;
+    border-radius: 8px;
+    width: 60px;
+    height: 30px;
 }
 
 .col-md-4 .btn p {
@@ -447,6 +649,20 @@ input {
 }
 
 
+.btn-checkout:hover {}
+
+.voucher {
+    width: 100%;
+    background-color: #78938A;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: righteous;
+    margin-bottom: 40px;
+
+}
+
 .voucher-input {
     margin-bottom: 30px;
 }
@@ -455,12 +671,44 @@ input {
     text-align: left;
 }
 
+.col-md-12 .btn-primary {
+    width: 70px;
+    float: right;
+    margin-right: 50px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: #525E75;
+}
+
+.mt-3 .btn-primary {
+    width: 70px;
+    float: right;
+    margin-right: 50px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: #525E75;
+}
+
 .p-700 {
     margin-top: 10px;
 }
 
+.text-Secondary {
+    color: #7C7B7A;
+    font-weight: bold;
+}
+
 .info-admin {
     margin-left: 20px;
+}
+
+.bulan {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    color: #F1DDBF;
 }
 
 .invoice {
@@ -473,9 +721,27 @@ input {
     margin-bottom: 60px;
 }
 
+.tabel {
+    border: solid #78938A;
+    width: 100%;
+    height: 440px;
+    border-radius: 5px;
+
+}
+
 .tabel p {
     margin-left: 20px;
     margin-top: 10px;
+
+}
+
+.btn-invoice {
+    background-color: #525E75;
+    width: 70px;
+    margin-right: 70px;
+    margin-bottom: 80px;
+    float: right;
+
 
 }
 
@@ -486,49 +752,9 @@ input {
 
 }
 
-/* media responsive */
-
-@media screen and (max-width: 960px) {
+ 
 
 
-    .navbar img {
-        width: 100px;
-        height: 80px;
-
-    }
-
-    #account .row {
-        --bs-gutter-x: unset;
-    }
-    #daftar .account .row {
-        --bs-gutter-x: unset;
-    }
-
-    .btn {
-        border-radius: 30px;
-        background-color: #F1DDBF;
-    }
-
-    body.account {
-        color: white;
-        font-family: p400;
-    }
-
-    .block-acc {
-        text-align: center;
-        margin: 100px;
-        width: 70%;
-        border-radius: 50px;
-        background-color: #57637A;
-        padding: 80px 100px 80px 100px;
-    }
-
-    .img-acc {
-        width: 25%;
-    }
-
-
-} 
 @media only screen and (min-width: 750px) {
     .row {
         --bs-gutter-x: none;
